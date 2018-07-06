@@ -1,0 +1,70 @@
+body {
+  color: gray;
+}
+body .background-container {
+  background: linear-gradient(rgba(255, 0, 0, 0.432), rgba(255, 0, 0, 0.432)), url("../images/in.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+  color: white;
+}
+.container-fluid .container .row nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.container-fluid .container .row nav ul li a {
+  font-size: 15px;
+  color: gray;
+}
+.container-fluid .container .row nav ul li a:hover {
+  color: #ff0000;
+  font-weight: bold;
+}
+.container-fluid .container .row .top-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.container-fluid .container .row .top-nav ul li a {
+  font-size: 13px;
+  color: white;
+}
+.container-fluid .container .row .top-nav ul li a:hover {
+  color: #2600ff;
+  font-weight: bold;
+}
+.item {
+  text-align: left;
+}
+.item .img-item {
+  box-sizing: border-box;
+}
+.item .img-item img {
+  width: 100%;
+  height: 150px;
+}
+.container-fluid .container .row .head-container h2 {
+  font-size: 24px;
+}
+.btn-container {
+  background-color: red !important;
+}
+.btn-container a {
+  color: white;
+}
+strong {
+  font-size: 25px;
+  color: black;
+}
+h4 {
+  color: black;
+}
+.search-container {
+  margin: 10px;
+}
+.center-padding {
+  padding-top: 5px;
+  text-align: center;
+}
